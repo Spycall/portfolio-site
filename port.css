@@ -1,0 +1,118 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  color: white;
+  z-index: 1000;
+}
+
+header .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+
+header .nav .logo {
+  font-size: 1.5em;
+}
+
+header .nav nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+header .nav nav ul li {
+  margin-left: 20px;
+}
+
+header .nav nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1em;
+}
+
+.hero {
+  /* height: 100vh; */
+  background: url('https://images.pexels.com/photos/15818869/pexels-photo-15818869/free-photo-of-person-riding-extremely-packed-bike.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load') no-repeat center center/cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+}
+
+.hero-content h1 {
+  font-size: 3em;
+  margin: 0;
+}
+
+.hero-content p {
+  font-size: 1.5em;
+}
+
+.about, .skills, .contact {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.about {
+  background: #f4f4f4;
+}
+
+.skills {
+  background: #fff;
+  position: relative;
+}
+
+.skills ul {
+  list-style: none;
+  padding: 0;
+}
+
+.skills ul li {
+  font-size: 1.2em;
+  margin: 10px 0;
+}
+section {
+  height: 100vh !important;
+  position: relative;
+}
+section h2 {
+  position: sticky;
+  top: 3rem;
+}
+.contact {
+  background: #f4f4f4;
+}
+
+.contact h2 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.contact .social-icons {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.contact .social-icons a {
+  margin: 0 10px;
+  font-size: 1.5em;
+  color: #333;
+  text-decoration: none;
+}
+
+.contact .social-icons a:hover {
+  color: #0073e6;
+}
